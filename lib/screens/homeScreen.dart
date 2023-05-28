@@ -4,7 +4,6 @@ import '../utils/helper.dart';
 import '../widgets/customNavBar.dart';
 import '../screens/individualItem.dart';
 import 'package:monkey_app_demo/widgets/searchBar.dart' as CustomSearchBar;
-import 'changeAddressScreen.dart';
 
 class HomeScreen extends StatelessWidget {
   static const routeName = "/homeScreen";
@@ -131,7 +130,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 50,
+                    height: 30,
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),
@@ -171,7 +170,7 @@ class HomeScreen extends StatelessWidget {
                     name: "Bakes by Tella",
                   ),
                   SizedBox(
-                    height: 50,
+                    height:10,
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),

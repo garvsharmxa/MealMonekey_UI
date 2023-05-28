@@ -31,6 +31,12 @@ class _IntroScreenState extends State<IntroScreen> {
       "desc":
           "Real time tracking of your food on the app once you placed the order"
     },
+    {
+      "image": "vector3.png",
+      "title": "Live Tracking",
+      "desc":
+      "Real time tracking of your food on the app once you placed the order"
+    },
   ];
 
   @override
@@ -92,6 +98,14 @@ class _IntroScreenState extends State<IntroScreen> {
                       radius: 5,
                       backgroundColor:
                           count == 2 ? AppColor.orange : AppColor.placeholder,
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    CircleAvatar(
+                      radius: 5,
+                      backgroundColor:
+                      count == 2 ? AppColor.orange : AppColor.placeholder,
                     )
                   ],
                 ),

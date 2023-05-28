@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:monkey_app_demo/const/colors.dart';
+import 'package:monkey_app_demo/screens/CartScreen.dart';
 import 'package:monkey_app_demo/utils/helper.dart';
 import 'package:monkey_app_demo/widgets/customNavBar.dart';
 
@@ -498,7 +499,14 @@ class IndividualItem extends StatelessWidget {
                                                         SizedBox(
                                                           width: 200,
                                                           child: ElevatedButton(
-                                                              onPressed: () {},
+                                                              onPressed: () {
+                                                                Navigator.push(
+                                                                    context,
+                                                                    MaterialPageRoute(
+                                                                        builder:
+                                                                            (context) =>
+                                                                                CartScreen()));
+                                                              },
                                                               child: Row(
                                                                 mainAxisAlignment:
                                                                     MainAxisAlignment
@@ -557,7 +565,8 @@ class IndividualItem extends StatelessWidget {
                                       ],
                                     ),
                                   ),
-                                ),Padding(
+                                ),
+                                Padding(
                                   padding: const EdgeInsets.only(right: 20),
                                   child: Align(
                                     alignment: Alignment.topRight,

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:monkey_app_demo/screens/forgetPwScreen.dart';
 
 import '../const/colors.dart';
-import '../screens/forgetPwScreen.dart';
 import '../screens/signUpScreen.dart';
 import '../utils/helper.dart';
 import '../widgets/customTextInput.dart';
